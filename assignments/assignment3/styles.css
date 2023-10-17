@@ -1,0 +1,311 @@
+body {
+  font-family: "Roboto", sans-serif;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  /* margin: 0.em; */
+  font-size: 1em;
+  list-style-type: none;
+  display: flex;
+
+  text-align: justify;
+
+  color: #555;
+
+  margin-left: 40px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.header {
+  width: 100%;
+  /* margin: 20px; */
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  text-decoration: none;
+  color: #555;
+  cursor: pointer;
+  align-items: center;
+}
+
+.header2 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: gray;
+  cursor: pointer;
+
+  padding: 10px;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  /* width: 50%; */
+}
+
+/* Make the image responsive */
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: black;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+
+  background-color: whitesmoke;
+}
+
+.container .btn:hover {
+  background-color: #d5d5d5;
+}
+
+.btn:hover {
+  background-color: #d5d5d5;
+}
+.button {
+  background-color: #555;
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 24px;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  width: 200px;
+  margin: 20px;
+
+  cursor: pointer;
+}
+
+table {
+  margin: auto;
+  border: none;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th:last-of-type {
+  border-right: none;
+}
+
+td,
+th {
+  padding: 5px;
+  border-style: none;
+  border-right: 1px solid #d5d5d5;
+}
+
+td:last-of-type {
+  border-right: none;
+}
+
+th.design {
+  font-size: 5em;
+  font-weight: 300;
+  color: rgb(20, 20, 20);
+}
+
+td.design {
+  text-align: center;
+  color: #5c5c5c;
+  font-size: 0.8em;
+}
+
+th.performance {
+  text-align: center;
+  color: #5c5c5c;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+td.performance {
+  text-align: center;
+  font-size: 5em;
+  font-weight: 300;
+  color: rgb(20, 20, 20);
+}
+
+span.performance {
+  text-align: center;
+  color: #5c5c5c;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(0, 13, 255);
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.footer {
+  font-size: small;
+}
+
+footer ul {
+  list-style-type: none;
+
+  font-size: 75%;
+}
+
+footer {
+  list-style-type: none;
+
+  font-size: 75%;
+}
+
+#submit {
+  background-color: #5c5c5c;
+  margin: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+  height: 60px;
+  border-radius: 20px;
+  cursor: pointer;
+  /* transform: rotate(20, 60, 90); */
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container2 {
+  position: relative;
+  margin: 40px;
+  /* width: 50%; */
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container2 .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: whitesmoke;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+
+  background-color: black;
+}
+
+.container2 .btn:hover {
+  background-color: #d5d5d5;
+}
+
+.btn:hover {
+  background-color: #d5d5d5;
+}
+
+section {
+  margin: 20px;
+}
+
+span {
+  font-weight: 700;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container-map {
+  position: relative;
+}
+
+/* Make the image responsive */
+.container-map img {
+  width: 100%;
+  height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container-map .btn1 {
+  position: absolute;
+  top: 95%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+
+  background-color: rgb(0, 13, 255);
+}
+
+.container-map .btn2 {
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+
+  background-color: rgb(0, 13, 255);
+}
+
+.container-map .btn3 {
+  position: absolute;
+  top: 80%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+
+  background-color: rgb(0, 13, 255);
+}
+
+.container-map .btn4 {
+  position: absolute;
+  top: 90%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+  color: whitesmoke;
+  font-size: 12px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+
+  background-color: rgb(0, 13, 255);
+}

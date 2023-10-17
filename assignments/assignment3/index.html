@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla&family=Markazi+Text&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img
+            src="../../images/assignment3/Audi_logo.png"
+            alt="audi-logo"
+            height="100"
+            width="120"
+          />
+        </div>
+        <div class="header">
+          <a href="https://www.audi.ca/">Models</a>
+          <a href="https://www.audi.ca/">Shop</a>
+          <a href="https://www.audi.ca/">Own</a>
+          <a href="https://www.audi.ca/">Discover</a>
+          <a href="https://www.audi.ca/">Audi Electric</a>
+        </div>
+      </nav>
+
+      <!-- <h3>COMP213 - Web Interface Design - Fall 2023</h3>
+        <h4>Student name: Edwin Okoronkwo</h4>
+        <h4>Student number: 301406247</h4> -->
+    </header>
+
+    <!-- <section>
+      <div class="logo">
+        <img
+          src="../../images/assignment3/audi-car.png"
+          alt="audi-logo"
+          height="500"
+          width="1000"
+        />
+      </div>
+    </section> -->
+    <main>
+      <div class="container">
+        <img
+          src="../../images/assignment3/audi-car.jpg"
+          alt="audi-logo"
+          height="500"
+          width="1000"
+        />
+        <a href="https://www.audi.ca/"
+          ><button class="btn">Build & Price</button></a
+        >
+      </div>
+      <div class="header2">
+        <a href="index.html">Design</a>
+        <a href="#performance">Performance</a>
+        <a href="#technology">Technology</a>
+        <a href="https://www.audi.ca/">Driver Assistance</a>
+        <a href="#locations">Location</a>
+      </div>
+      <section>
+        <h2>Everything a sedan should be</h2>
+
+        <div class="container2">
+          <a href="https://www.audi.ca/"
+            ><button class="btn" value="View Offer">View Offer</button></a
+          >
+        </div>
+
+        <br />
+        <br />
+        <table>
+          <tr>
+            <th class="design">LED</th>
+            <th class="design">12V</th>
+            <th class="design">40/20/40</th>
+          </tr>
+          <tr>
+            <td class="design">headlights</td>
+            <td class="design">Mild Hybrid System</td>
+            <td class="design">split-folding rear seats</td>
+          </tr>
+        </table>
+      </section>
+
+      <section>
+        <h2 id="performance">Performance</h2>
+        <div class="container">
+          <img
+            src="../../images/assignment3/audi-car2.png"
+            alt="audi-logo"
+            height="500"
+            width="1000"
+          />
+        </div>
+      </section>
+      <section>
+        <p>
+          <span>Design that moves.</span> As a classic, sohisticated four-door
+          sports sedan, the Audi A4 features seating for five, generous trunk
+          space, standard LED headlights, LED taillights with dynamic
+          indicators, and more.
+        </p>
+
+        <br />
+        <table>
+          <tr>
+            <th class="performance">Horsepower</th>
+            <th class="performance">Torque</th>
+            <th class="performance">0-100 km/h in</th>
+          </tr>
+          <tr>
+            <td class="performance">261 <span class="performance">HP</span></td>
+            <td class="performance">
+              273 <span class="performance">lb-ft</span>
+            </td>
+            <td class="performance">
+              5.5 <span class="performance">sec</span>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <br />
+
+      <section>
+        <h2 id="technology">Technology</h2>
+        <div class="container">
+          <img
+            src="../../images/assignment3/technology.jpg"
+            alt="audi-logo"
+            height="500"
+            width="1000"
+          />
+        </div>
+      </section>
+      <section>
+        <p>
+          <span>Virtual cockpit plus.</span> As a customizable digital
+          instrument cluster, the available virtual conckpit plus presents key
+          information right in your field of view on a stunning =, 12.3" HD
+          display. Includes three display
+        </p>
+      </section>
+      <br />
+      <h2 id="locations">Locations</h2>
+      <div class="header2">
+        <a href="https://www.audi.ca/" onclick="toronto()">Toronto</a>
+        <a href="https://www.audi.ca/" onclick="montreal()">Montreal</a>
+        <a href="https://www.audi.ca/" onclick="vancouver()">Vancouver</a>
+        <a href="https://www.audi.ca/" onclick="calgary()">Calgary</a>
+      </div>
+      <!-- <p style="text-align: center; font-size: 35px; color: red">
+        How to Create a Clickable Image Map
+      </p>
+      <h4>NOTE</h4>
+      <p>
+        The rectangle coordinates: (x1, y1) (x2, y2) means: left top and right
+        bottom
+      </p>
+      <p>The circle coordinates: (x, y, radius)</p> -->
+
+      <section class="map">
+        <!-- <img
+          src="../../images/assignment3/map-canada.webp"
+          alt="Map of Canada"
+          usemap="#canadamap"
+        /> -->
+
+        <div class="container-map">
+          <img
+            src="../../images/assignment3/map-canada.webp"
+            alt="Map of Canada"
+            usemap="#canadamap"
+          />
+          <a href="https://www.audi.ca/"
+            ><button class="btn1" onclick="toronto()">Toronto</button></a
+          >
+          <a href="https://www.audi.ca/"
+            ><button class="btn2" onclick="vancouver()">Vancouver</button></a
+          >
+          <a href="https://www.audi.ca/"
+            ><button class="btn3" onclick="calgary()">Calgary</button></a
+          >
+          <a href="https://www.audi.ca/"
+            ><button class="btn4" onclick="montreal()">Montreal</button></a
+          >
+        </div>
+        <map name="canadamap">
+          <area
+            shape="rect"
+            coords="70, 730, 100, 760"
+            alt="Vancouver Office"
+            href="https://www.audi.ca/#"
+            onclick="vancouver()"
+          />
+          <area
+            shape="rect"
+            coords="860, 940, 890, 980"
+            alt="Toronto Office"
+            href="https://www.audi.ca/"
+            onclick="toronto()"
+          />
+          <!-- 
+          <area shape="circle" coords="90,58,3" href="mercur.htm" alt="Mercury"> -->
+          <!-- <area
+            shape="circle"
+            coords="880, 950, 10"
+            alt="Toronto Office"
+            href="https://www.audi.ca/"
+            onclick="toronto()"
+            style="fill: true; background-color: #00ffee"
+          /> -->
+          <area
+            shape="rect"
+            coords="900, 910, 930, 890"
+            alt="Montreal Office"
+            href="https://www.audi.ca/"
+            onclick="montreal()"
+          />
+          <area
+            shape="rect"
+            coords="240, 800, 270, 820"
+            alt="Calgary Office"
+            href="https://www.audi.ca/"
+            onclick="calgary()"
+          />
+        </map>
+      </section>
+
+      <script>
+        function vancouver() {
+          alert("Vancouver Office: 123 Main Street Vancouver, BC Canada");
+        }
+
+        function toronto() {
+          alert("Toronto Office: 123 Main Street Toronto, ON Canada");
+        }
+
+        function calgary() {
+          alert("Calgary Office: 123 Main Street Calgary, AB Canada");
+        }
+
+        function montreal() {
+          alert("Montreal Office: 123 Main Street Montreal, QC Canada");
+        }
+      </script>
+      <!-- <p style="text-align: center; font-size: 25px">
+        For more videos visit <a href="http://smtutor.com">smtutor.com</a>
+      </p> -->
+    </main>
+    <footer class="footer">
+      <p><strong>Contact me:</strong></p>
+      <ul>
+        <li>
+          Email:
+          <a href="mailto:eokoronk@my.centennialcollege.ca"
+            >eokoronk@my.centennialcollege.ca</a
+          >
+        </li>
+        <li>Phone: 666-666-6666</li>
+      </ul>
+      <p>
+        <strong>Reference: </strong
+        ><a href="https://www.audi.ca/">Audi Canada</a>
+      </p>
+      <h6>
+        &copy;&nbsp;&nbsp;&nbsp;Copyright Edwin Okoronkwo - COMP213 - FALL 2023
+      </h6>
+    </footer>
+  </body>
+</html>

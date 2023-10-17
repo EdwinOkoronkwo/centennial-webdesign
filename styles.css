@@ -1,0 +1,35 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body {
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: lavender;
+  color: grey;
+}
+
+footer {
+  font-size: 0.7em;
+  font-style: italic;
+}
+h1 {
+  margin-left: 100px;
+}
+
+.border {
+  border-style: solid;
+  border-color: olive;
+  border-width: 2px;
+}
+
+.container {
+  display: inline-block;
+  margin: 20px;
+}
+
+span {
+  font-weight: 400;
+}
